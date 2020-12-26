@@ -1,0 +1,17 @@
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.wapper{
+    width: 700px;
+    height: 800px;
+    margin: 0px auto;
+    mask-image: url(mask-image.png); 
+   -webkit-mask-image: url(mask-image.png);  
+    mask-repeat: no-repeat;
+   -webkit-mask-repeat: no-repeat;
+    mask-size: 100%;
+   -webkit-mask-size: 100% ;
+   
+}
